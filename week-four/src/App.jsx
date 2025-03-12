@@ -15,10 +15,8 @@ function App() {
   };
 
   const addTask = () => {
-    if (task.title.trim() !== "") {
-      setTasks([...tasks, { ...task, id: Date.now() }]);
-      setTask({ title: "", description: "", dueDate: "", completed: false });
-    }
+    setTasks([...tasks, { ...task, id: Date.now() }]);
+    setTask({ title: "", description: "", dueDate: "", completed: false });
   };
 
   const deleteTask = (id) => {
