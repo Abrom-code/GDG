@@ -29,14 +29,14 @@
 
   background: linear-gradient(
     to top,
-    rgb(248, 136, 9),
-    rgba(192, 182, 7, 0.984),
+    rgb(109, 125, 8),
+    rgba(121, 115, 8, 0.984),
     rgba(0, 165, 183, 0)
   );
   border-bottom-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
 
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 .movie-card:hover .movie-detail {
   opacity: 1;
